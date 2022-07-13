@@ -1,0 +1,72 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+.navbar-fixed{
+    position:fixed;
+}
+.navbar{
+    padding:30px;
+    height: 80px; 
+    
+}
+.nav-item{
+    margin-left: 180px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top:8px;
+    
+}
+.navbar-brand{
+   font-family: 'Kanit', sans-serif;
+   font-weight: 1000;
+
+   margin-left:30px
+}
+.nav-2{
+background-color: #fff;
+color:#000;
+} 
+.nav-2 a{
+color:#000;
+
+}
+.nav-2 a:hover{
+    color:#000;
+    
+    }
+    .navbar-fixed{
+        padding:30px;
+        height: 80px;  
+        width:100%;
+       
+    }
+     .navbar-fixed  .nav-item{
+        margin-left: 180px;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top:8px;
+        
+    }
+    .navbar-fixed .navbar-brand{
+       font-family: 'Kanit', sans-serif;
+       font-weight: 1000;
+    
+       margin-left:30px
+    }
+    .navbar-fixed {
+    background-color: #fff;
+    color:#000;
+    } 
+    .navbar-fixed  a{
+    color:#000;
+    
+    }
+    .navbar-fixed  a:hover{
+        color:#000;
+        
+        }

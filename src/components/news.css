@@ -1,0 +1,144 @@
+
+.news{
+    overflow-x: hidden;
+}
+.events{
+    overflow-x: hidden;
+}
+
+.news h3{
+    margin-left:70px;
+   padding-top: 50px;
+   color: #fff;
+   font-size: 40px;
+   font-family: 'Libre Baskerville', serif;
+}
+.news .article{
+    height: 300px;
+    background-color: #fff;
+    margin:60px;
+   
+   position: relative;
+ 
+   
+    
+}
+.news .image{
+    height:300px;
+    margin-left:60px;
+    width:500px;
+    position:absolute;
+    top: -30px;
+    left: 0;
+}
+.news .title{
+    position:absolute;
+    right:80px;
+    top:20px;
+    font-size: 30px;
+    width: 700px;
+    padding:60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+}
+.news .description{
+    position:absolute;
+    left:0;
+    bottom: 0;
+    font-size: 30px;
+   
+    padding:60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+}
+.title span{
+    color:#85D236;
+}
+.news .article2{
+    height: 300px;
+    background-color: #fff;
+    margin:60px;
+   
+   position: relative;
+       
+   
+    
+}
+.news .image2{
+    height:300px;
+    margin-right:60px;
+    width:500px;
+    position:absolute;
+    top: -30px;
+    right: 0;
+}
+.news .title2{
+    position:absolute;
+    left:80px;
+    top:20px;
+    font-size: 30px;
+    width: 700px;
+    padding:60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+}
+.news .description2{
+    position:absolute;
+    left:0;
+    bottom: 0;
+    font-size: 30px;
+   
+    padding:60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+}
+.title2 span{
+    color:#85D236;
+}
+.events .article{
+    height: 300px;
+    background-color: #fff;
+    margin:60px;
+   
+   position: relative;
+       
+   
+    
+}
+.events .image{
+    height:300px;
+    margin-left:60px;
+    width:500px;
+    position:absolute;
+    top: -30px;
+    left: 0;
+}
+.events h3{
+    margin-left:70px;
+   padding-top: 50px;
+   color: #fff;
+   font-size: 40px;
+   font-family: 'Libre Baskerville', serif;
+}
+.events .title{
+    position:absolute;
+    right:200px;
+    top:20px;
+    font-size: 40px;
+    width: 500px;
+    padding:20px;
+  
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family:'Bebas Neue';
+}
+.events .title span{
+    color:#85D236;
+    word-spacing:500px;
+    font-weight: bold;
+    
+}

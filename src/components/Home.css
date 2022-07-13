@@ -1,0 +1,45 @@
+.body{
+   background-color: #1A1F14;
+}
+
+
+.Slide{
+
+ background-image: url('../images/victor-freitas-qZ-U9z4TQ6A-unsplash.jpg');
+background-size: cover;
+height:500px}
+
+.Slide p{
+    font-size: 30px;
+    color:#fff;
+    padding-top: 50px;
+    padding-left: 100px;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    width:700px;
+    line-height: 100px;
+    letter-spacing: 0.25rem;
+    font-weight: 500;
+    }
+    .Slide span{
+      color:#85D236;
+      font-weight: 700;
+    }
+ .btn{
+    border-radius: 25px;
+    background-color: #85D236;
+    width:180px;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    font-weight: 300;
+ }
+ .btn:hover{
+   border-radius: 25px;
+   background-color: #85D236;
+   width:150px;
+   color: #fff;
+   font-family: 'Libre Baskerville', serif;
+   font-size: 25px;
+   font-weight: 300;
+}

@@ -8,11 +8,18 @@ padding-left: 180px;
 padding-right: 10px;}
 .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     gap:4rem
     
 }
-
+@media screen and (max-width: 900px) {
+    .footer-07 {
+      width:80%;
+    }
+    .box-container{
+        width: 50%;
+    }
+  }
 .box-container .box h3{
     font-size: 1.5rem;
     color:#fff;

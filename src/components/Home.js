@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <motion.div class='body' initial={{opacity:0}}
     animate={{opacity:1}} transition={{duration:.4,stiffness:120}}>
-    <Navbar/>
+   
     <section className='Slide'>
       <p>Trouvez votre <span><TextAnimation/></span> préféré plus proche de vous</p>
 <motion.div initial={{x:'-100vw'}}
@@ -22,7 +22,7 @@ transition={{delay:1.5,duration:1.5,type:'spring',stiffness:120}}><motion.button
     
     <Events/>
     <Newslettres/>
-    <Footer/>
+  
 
     </motion.div>
   )

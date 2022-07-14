@@ -1,8 +1,4 @@
 
-
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 .navbar-fixed{
     position:fixed;
@@ -12,8 +8,9 @@
     height: 80px; 
     
 }
+
 .nav-item{
-    margin-left: 180px;
+    margin-left: 130px;
     font-family: 'Libre Baskerville', serif;
     font-size: 20px;
     font-weight: 400;
@@ -70,3 +67,26 @@ color:#000;
         color:#000;
         
         }
+        @media (max-width:991px){
+            .navbar .navbar-brand {
+                max-width: 280px;
+            }
+           
+           
+           }
+           
+           @media (max-width:768px){
+           
+            .navbar .navbar-brand {
+                max-width: 80px;
+            }
+                
+           
+          
+           }
+           
+           @media (max-width:450px){
+           
+              
+              
+           }

@@ -1,0 +1,84 @@
+.club{
+    
+    width:100%;
+    padding-left:100px;
+}
+.container-club
+{
+    background-color: #1A1F14;
+    height:600px;
+    width:90%;
+   
+    border-radius: 20px;
+}
+.container-pal
+{
+    background-color: #1A1F14;
+    padding:50px;
+    margin-top:40px;
+    margin-bottom:40px;
+    width:90%;
+    border-radius: 20px;
+    color:#fff;
+}
+.club h3{
+    color: #85D236;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding:50px;
+    font-weight: 600;
+}
+.club img{
+    position:relative;
+    top:-40px;
+    height:400px;
+    left:600px;
+    border-radius: 20px;
+}
+
+.container-club li{
+    
+  padding:10px;
+ align-items: baseline;
+     list-style: none;
+}
+.container-club p{
+  position: relative;
+bottom:300px;
+  color:#fff;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  
+ 
+}
+.container-club .description{
+    position: relative;
+  bottom:300px;
+    color:#fff;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    padding: 60px;
+    width:50%
+    
+   
+  }
+.container-club p span{
+  color:#85D236;
+  padding: 20px;
+  }
+  .container-club .btn{
+    background-color: #85D236;
+    width:200px;
+   left:200px;
+   
+    
+    }
+ .container-pal h3{
+        color: #85D236;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 40px;
+        text-transform: uppercase;
+        padding:50px;
+        font-weight: 600;
+    }

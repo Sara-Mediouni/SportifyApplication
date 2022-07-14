@@ -1,0 +1,21 @@
+.contacts{
+    
+    background-color: #1A1F14;
+    width:100%;
+    height: 900px;
+}
+.contacts h2{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+   padding-top: 100px;
+}
+.contacts .box{
+    background-color: #fff;
+    width: 70%;
+    height: 550px;
+    margin:230px;
+    margin-top: 100px;
+    border-radius: 20px;
+}

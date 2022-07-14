@@ -1,7 +1,7 @@
 .body{
-   background-color: #1A1F14;
+   background-color: #1A1F14!important;
+ 
 }
-
 
 .Slide{
 
@@ -37,9 +37,36 @@ height:500px}
  .btn:hover{
    border-radius: 25px;
    background-color: #85D236;
-   width:150px;
+   width:180px;
    color: #fff;
    font-family: 'Libre Baskerville', serif;
    font-size: 25px;
    font-weight: 300;
+}
+@media (max-width:991px){
+
+ .body{
+   width:100%
+ }
+
+}
+
+@media (max-width:768px){
+
+   
+   .body{
+      width:100%
+    }
+ 
+
+}
+
+@media (max-width:450px){
+
+   .body{
+      width:100%
+    }
+    .navbar .navbar-nav{
+      width:50%
+    }
 }

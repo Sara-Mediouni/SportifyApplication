@@ -1,12 +1,13 @@
 
     .newsletter{
         background-position: right;
-        
+       height: 300px;
     }
 
     .newsletter form{
         margin-left:0;
         max-width: 100%;
+        height:200px;
     }
     
 .newsletter{
@@ -14,8 +15,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height:80%;
-}
+    height:400px}
 
 .newsletter form{
     max-width: 45rem;

@@ -1,6 +1,8 @@
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "jquery/dist/jquery.min.js";
+import "bootstrap/dist/js/bootstrap.min.js";
 import Footer from "./components/footer";
 import Home from "./components/Home";
 import {
@@ -13,6 +15,7 @@ import Contacts from "./components/Contacts";
 import Clubs from "./components/Clubs";
 import Navbar from './components/navbar';
 import Club from './components/Club';
+import Details from './components/details';
 function App() {
   return (
     <BrowserRouter >
@@ -24,6 +27,7 @@ function App() {
     <Route path="/contacts" element={<Contacts/>} exact />
     <Route path="/clubs" element={<Clubs/>} exact />
     <Route path="/club" element={<Club/>} exact />
+    <Route path="/details" element={<Details/>} exact />
     </Routes>
     <Footer/>
     </BrowserRouter>

@@ -142,3 +142,131 @@
     font-weight: bold;
     
 }
+@media (max-width:991px){
+
+  
+   
+   }
+   
+   @media (max-width:820px){
+    
+   .news .image{
+  height: 95%;
+  width:50%;
+  position:absolute;
+    top: -30px;
+   left:-30px;
+   }
+   .news .article{
+    height: 200px;
+    background-color: #fff;
+    margin:60px;
+   
+   position: relative;
+}
+   .news .title{
+    position:absolute;
+    right:0;
+   height:20%;
+    top:5%;
+    font-size: 17px;
+    width: 200px;
+    padding:10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    padding-left:10px;
+   word-break:break-all;
+}
+
+     .news .article{
+      height: 200px;
+      background-color: #fff;
+      margin:60px;
+     
+     position: relative;
+   
+     
+      
+  }
+  .news .article2{
+    height: 200px;
+    background-color: #fff;
+    margin:60px;
+   
+   position: relative;
+ 
+   
+    
+}
+.news .image2{
+    height: 95%;
+    width:50%;
+    position:absolute;
+    top: -30px;
+    right: -30px;
+}
+.news .title2{
+    position:absolute;
+    left:0;
+    top:20px;
+    font-size: 17px;
+    width: 200px;
+    padding:20px;
+    font-weight: 700;
+   padding-right:10px;
+   word-break:break-all;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+}
+    
+
+.events .article{
+    height: 200px;
+    background-color: #fff;
+    margin:60px;
+   
+   position: relative;
+       
+   
+    
+}
+.events .image{
+    height:95%;
+    margin-left:60px;
+    width:50%;
+    position:absolute;
+    top: -30px;
+    left: -30px;
+}
+.events h3{
+    margin-left:70px;
+   padding-top: 50px;
+   color: #fff;
+   font-size: 30px;
+   font-family: 'Libre Baskerville', serif;
+}
+.events .title{
+    position:absolute;
+   left:60%;
+    top:20px;
+    font-size: 20px;
+    width: 200px;
+    padding:20px;
+  
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family:'Bebas Neue';
+
+   }
+   .news h3{
+    margin-left:70px;
+   padding-top: 50px;
+   color: #fff;
+   font-size: 30px;
+   font-family: 'Libre Baskerville', serif;
+}}
+   @media (max-width:600px){
+   
+      
+   }

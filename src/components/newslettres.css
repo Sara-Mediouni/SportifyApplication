@@ -64,3 +64,66 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+@media (max-width:991px){
+
+   }
+   
+   @media (max-width:768px){
+   
+    .newsletter form{
+        max-width: 40rem;
+        margin-left:25%;
+        text-align: center;
+        padding:5rem 0;
+    }
+    
+    .newsletter  h3{
+        margin-bottom: 20px;
+        font-size: 1rem;
+        color:#fff;
+        padding-top: 5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'Libre Baskerville', serif;
+        line-height: 50px;
+        letter-spacing: 0.25rem;
+    }
+    
+    .newsletter form .box{
+        width: 30%;
+        margin: .7rem 0;
+        padding:1rem 1.2rem;
+        font-size: 1rem;
+        color:var(--grey);
+        border-radius: 2rem;
+        text-transform: none;
+    }
+    .newsletter form input{
+        height:50px;
+    }
+    .newsletter form .btn{
+      
+        border-radius: 0;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #85D236;
+        width:200px;
+        color: #fff;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 25px;
+        font-weight: 300;
+        height:50px
+       
+    }
+    .newsletter form input{
+        border-top-right-radius:none;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+   }
+   
+   @media (max-width:450px){
+ 
+    
+}

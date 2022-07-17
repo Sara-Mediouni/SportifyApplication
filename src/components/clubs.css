@@ -1,0 +1,180 @@
+.clubs{
+   
+    height: 900px;
+    background-color:white;
+    padding-left:100px;
+    
+    
+    }
+    
+    .clb{
+       
+        
+        height: 350px;
+        background-color:rgb(8, 8, 8);
+        width:400px;
+        padding:50px;
+        
+        margin-top:10%;
+        position:absolute;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    
+    }
+    .clb img{
+        position: relative;
+        top:-90px;
+        left: 40px;
+        height: 250px;
+        width: 350px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .tx{
+        color: #85D236;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 40px;
+        text-transform: uppercase;
+        padding:50px;
+        font-weight: 600;
+    }
+    .search{
+         
+        margin:50px;
+        margin-left: 340px;
+        
+         
+    }
+    .recherche{
+        padding-top: 50px;
+        padding-left:50px;
+        align-items:baseline;
+        
+        
+    }
+    .events1{
+        background-color:#1A1F14;
+    }
+    
+    .events1 .image{
+        height:300px;
+        margin-left:60px;
+        width:500px;
+        position:absolute;
+        top: -30px;
+        left: 0;
+        
+    }
+    .events1 h3{
+        margin-left:70px;
+       padding-top: 50px;
+       color: #fff;
+       font-size: 40px;
+       font-family: 'Libre Baskerville', serif;
+    }
+    .events1 .title{
+        position:absolute;
+        right:200px;
+        top:20px;
+        font-size: 40px;
+        width: 500px;
+        padding:20px;
+      
+        font-weight: 900;
+        text-transform: uppercase;
+        font-family:'Bebas Neue';
+    }
+    .events1 .title span{
+        color:#85D236;
+        word-spacing:500px;
+        font-weight: bold;
+        
+    }
+    form{
+        max-width: 70rem;
+        margin-left:10%;
+        text-align: center;
+        padding:1rem 0;
+        
+    }
+     
+    
+    form .box{
+        width: 60%;
+        margin: .7rem 0;
+        padding:1rem 1.2rem;
+        font-size: 1.6rem;
+        color:var(--grey);
+        border-radius: 2.5rem;
+        text-transform: none;
+    }
+    form .btn{
+      
+        border-radius: 0;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #85D236;
+        width:200px;
+        color: #fff;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 25px;
+        font-weight: 300;
+        height:60px
+       
+    }
+    form .btn-search{
+      
+        border-radius: 0;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #85D236;
+        width:120px;
+        color: #fff;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 25px;
+        font-weight: 300;
+        height:60px;
+        border-color:transparent;
+       
+    }
+    form .search-input{
+        border-top-right-radius:none;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width:150px;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 100px;
+        color:#f9fbff;
+        padding-bottom: 10px;
+        
+    }
+  .btn-2{
+          
+    border-radius: 0;
+    
+    background-color: #cecece;
+    width:100px;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 500;
+    height:60px;
+    border-color: #bdbdbd;
+   
+  }
+  .btn-3{
+          
+    border-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #cecece;
+    width:70px;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+   border-color: transparent;
+    height:60px;
+
+  }

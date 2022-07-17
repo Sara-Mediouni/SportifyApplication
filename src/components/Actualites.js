@@ -24,12 +24,12 @@ if (inView){
 }
   },[inView]);
   return (
-    <section ref={ref} className='news'>
+    <section ref={ref} className='news col-md-12 col-xs-10 col-xs-offset-1'>
 <h3>Actualités</h3>
 <motion.div 
 animate={animation}  
 className='article'>
-<img src={img1} class="image"/>
+<img src={img1} class="image col-md-5 col-xs-3 col-xs-offset-1"/>
 <p className='title'><span>Ons Jabeur</span> s'impose 
 contre Elise Mertens
  à Wimbledon et file en

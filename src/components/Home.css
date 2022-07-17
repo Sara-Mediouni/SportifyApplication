@@ -5,9 +5,13 @@
 
 .Slide{
 
- background-image: url('../images/victor-freitas-qZ-U9z4TQ6A-unsplash.jpg');
-background-size: cover;
-height:500px}
+ background-image: url('../images/21.jpg');
+background-size:cover;
+background-position: center;
+
+background-repeat: no-repeat;
+height:500px;
+}
 
 .Slide p{
     font-size: 30px;
@@ -44,29 +48,96 @@ height:500px}
    font-weight: 300;
 }
 @media (max-width:991px){
+   
 
- .body{
-   width:100%
- }
 
 }
 
-@media (max-width:768px){
-
-   
+@media (max-width:820px){
    .body{
-      width:100%
-    }
- 
+      overflow-x: hidden;
+   }
+   .Slide p{
+      
+         font-size: 18px;
+         color:#fff;
+         padding-top: 10px;
+         padding-left: 60px;
+         text-transform: uppercase;
+         font-family: 'Libre Baskerville', serif;
+         width:500px;
+         line-height: 100px;
+         letter-spacing: 0.25rem;
+         font-weight: 500;
+         }
+         .Slide span{
+           color:#85D236;
+           font-weight: 700;
+         }
+   
+         .btn{
+            border-radius: 25px;
+            background-color: #85D236;
+            width:120px;
+            color: #fff;
+            font-family: 'Libre Baskerville', serif;
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: 10px !important;
+            margin-bottom: 50px;
+         }
+         .btn:hover{
+           border-radius: 25px;
+           background-color: #85D236;
+           width:120px;
+           color: #fff;
+           font-family: 'Libre Baskerville', serif;
+           font-size: 20px;
+           font-weight: 300;
+        }
+        .Slide{
+         height:25%
+        }
 
 }
 
 @media (max-width:450px){
-
    .body{
-      width:100%
-    }
-    .navbar .navbar-nav{
-      width:50%
-    }
+      overflow-x: hidden;
+   }
+   .Slide p{
+      
+         font-size: 10px;
+         color:#fff;
+         padding-top: 50px;
+         padding-left: 40px;
+         text-transform: uppercase;
+         font-family: 'Libre Baskerville', serif;
+         width:400px;
+         line-height: 100px;
+         letter-spacing: 0.25rem;
+         font-weight: 800;
+         }
+         .Slide span{
+           color:#85D236;
+           font-weight: 700;
+         }
+         .btn{
+            border-radius: 25px;
+            background-color: #85D236;
+            width:90px;
+            color: #fff;
+            font-family: 'Libre Baskerville', serif;
+            font-size: 18px;
+            font-weight: 300;
+         }
+         .btn:hover{
+           border-radius: 25px;
+           background-color: #85D236;
+           width:90px;
+           color: #fff;
+           font-family: 'Libre Baskerville', serif;
+           font-size: 18px;
+           font-weight: 300;
+        }
 }

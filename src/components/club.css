@@ -70,8 +70,10 @@ bottom:300px;
   .container-club .btn{
     background-color: #85D236;
     width:200px;
-   left:200px;
-   
+    top:200;
+    position:relative;
+ 
+
     
     }
  .container-pal h3{

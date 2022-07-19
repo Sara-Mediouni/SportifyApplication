@@ -16,6 +16,9 @@ import Clubs from "./components/Clubs";
 import Navbar from './components/navbar';
 import Club from './components/Club';
 import Details from './components/details';
+import Events from './components/Evènements';
+import Login from './components/Login';
+import Signup from './components/signup';
 function App() {
   return (
     <BrowserRouter >
@@ -28,8 +31,11 @@ function App() {
     <Route path="/clubs" element={<Clubs/>} exact />
     <Route path="/club" element={<Club/>} exact />
     <Route path="/details" element={<Details/>} exact />
+    <Route path="/events" element={<Events/>} exact />
+    
     </Routes>
     <Footer/>
+ 
     </BrowserRouter>
   );
 }

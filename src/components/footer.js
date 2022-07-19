@@ -19,7 +19,7 @@ const Footer = () => {
 
                     <div className="box-container">
 
-<div className="box">
+<div className="box ">
     <h3>Besoin d'aide ?</h3>
     <a href="#"><i><AiOutlineArrowRight/></i>Contacts</a>
 </div>
@@ -40,8 +40,8 @@ const Footer = () => {
 </div>
 					
 				
-			
-                <div class="col-md-10 text-center icons">
+			<div class="responsive">
+                <div class="col-md-10 col-sm-8  text-center icons">
                     <p>Rejoignez-nous sur les réseaux sociaux</p>
 <a href="#"><i><SiGmail/></i></a>
 <a href="#"><i><ImFacebook/></i></a>
@@ -50,13 +50,13 @@ const Footer = () => {
 <a href="#"><i><IoLogoWhatsapp/></i></a>
                 </div>
 				<div class="row mt-5">
-					<div class="col-md-10 text-center copyright">
+					<div class="col-md-10 col-sm-8 col-xs-4 text-center copyright">
 						
 					<i><BiCopyright/></i>  Copyright 2022 | All rights reserved 
 				
                     
 					</div>
-				</div>
+				</div></div>
 		
 		</section>
 		

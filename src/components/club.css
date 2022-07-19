@@ -6,9 +6,9 @@
 .container-club
 {
     background-color: #1A1F14;
-    height:600px;
+    height:700px;
     width:90%;
-   
+   padding-bottom: 50px;
     border-radius: 20px;
 }
 .container-pal
@@ -54,7 +54,7 @@ bottom:300px;
 }
 .container-club .description{
     position: relative;
-  bottom:300px;
+  bottom:100px;
     color:#fff;
     font-family: 'Libre Baskerville', serif;
     font-size: 30px;
@@ -62,6 +62,24 @@ bottom:300px;
     width:50%
     
    
+  }
+  .container-club .description img{
+   
+  bottom:10px;
+   position:absolute;
+    padding: 10px;
+    width:80%;
+    right:0;
+    border-radius: 0;
+    height:300px;
+    
+   
+  }
+  .container-club .description span{
+    
+      color:#85D236;
+      padding: 20px;
+      
   }
 .container-club p span{
   color:#85D236;
@@ -73,8 +91,6 @@ bottom:300px;
     top:200;
     position:relative;
  
-
-    
     }
  .container-pal h3{
         color: #85D236;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './club.css';
-import img1 from '../images/received_630585981340841-1024x576.jpg'
+import img1 from '../images/received_630585981340841-1024x576.jpg';
+import img2 from '../images/Capture.PNG'
 import {IoLocationSharp} from 'react-icons/io5';
 import {BsTelephoneFill} from 'react-icons/bs';
 import {IoIosTime} from 'react-icons/io';
@@ -17,11 +18,13 @@ export default function Club() {
         <li><span><IoIosTime/></span>8h-21h</li></ul>
     </p>  
     <p className='description'>
+   <span><IoLocationSharp/></span> 
     Lorem ipsum dolor sit 
 amet, consectetur adipiscing
  elit. In fringilla ante mauris
 , et pulvinar eros blandit sed. Fusce con
-gue efficitur placerat. Donec mattis .
+gue efficitur placerat. Donec mattis.
+<img src={img2}/>
    </p>
   
 </div> </section>

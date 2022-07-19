@@ -27,10 +27,10 @@ if (inView){
     <section ref={ref}>
      <motion.div 
  class="newsletter"> <h3 className='col-md-7 offset-md-3'>Abonne-toi à la newlettres pour reçevoir toutes nos nouveautés !</h3>
-<form class="input-group mb-3 col-md-12 col-sm-10">
-  <input type="text" class="text text-1 form-control" placeholder="Saisir email" aria-label="Saisir email" aria-describedby="basic-addon2"/>
+<form class="input-group mb-3 ">
+  <input type="text" class="input-news text text-1 form-control" placeholder="Saisir email" aria-label="Saisir email" aria-describedby="basic-addon2"/>
   <div class="input-group-append">
-    <button class="btn" type="button">Envoyer</button>
+    <button class="btn-news" type="button">Envoyer</button>
   </div>
 </form></motion.div>
 </section>

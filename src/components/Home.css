@@ -1,16 +1,24 @@
-.body{
+.content{
    background-color: #1A1F14!important;
+ 
+ 
  
 }
 
 .Slide{
 
- background-image: url('../images/21.jpg');
-background-size:cover;
+ background-image: url('');
+background-size: 100% 100%;;
 background-position: center;
 
 background-repeat: no-repeat;
 height:500px;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-pack: justify;
+    justify-content: space-between;
+-ms-flex-align: center;
+    align-items: center;
 }
 
 .Slide p{
@@ -29,7 +37,7 @@ height:500px;
       color:#85D236;
       font-weight: 700;
     }
- .btn{
+ .Slide .btn-slide{
     border-radius: 25px;
     background-color: #85D236;
     width:180px;
@@ -37,6 +45,9 @@ height:500px;
     font-family: 'Libre Baskerville', serif;
     font-size: 25px;
     font-weight: 300;
+    left:0;
+    border-color: transparent;
+    margin-bottom: 30px;
  }
  .btn:hover{
    border-radius: 25px;
@@ -56,6 +67,9 @@ height:500px;
 @media (max-width:820px){
    .body{
       overflow-x: hidden;
+   }
+   .Slide{
+      height:500px;
    }
    .Slide p{
       
@@ -105,39 +119,4 @@ height:500px;
    .body{
       overflow-x: hidden;
    }
-   .Slide p{
-      
-         font-size: 10px;
-         color:#fff;
-         padding-top: 50px;
-         padding-left: 40px;
-         text-transform: uppercase;
-         font-family: 'Libre Baskerville', serif;
-         width:400px;
-         line-height: 100px;
-         letter-spacing: 0.25rem;
-         font-weight: 800;
-         }
-         .Slide span{
-           color:#85D236;
-           font-weight: 700;
-         }
-         .btn{
-            border-radius: 25px;
-            background-color: #85D236;
-            width:90px;
-            color: #fff;
-            font-family: 'Libre Baskerville', serif;
-            font-size: 18px;
-            font-weight: 300;
-         }
-         .btn:hover{
-           border-radius: 25px;
-           background-color: #85D236;
-           width:90px;
-           color: #fff;
-           font-family: 'Libre Baskerville', serif;
-           font-size: 18px;
-           font-weight: 300;
-        }
 }

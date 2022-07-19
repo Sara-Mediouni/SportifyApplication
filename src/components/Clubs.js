@@ -7,7 +7,7 @@ import {BiFilter} from "react-icons/bi"
 import { useInView } from "react-intersection-observer";
 import { useEffect ,useState} from "react";
 import { useAnimation } from "framer-motion";
-import img1 from "../images/received_630585981340841-1024x576.jpg";
+import img1 from "../images/1.jpg";
 import img2 from "../images/josh-calabrese-zcYRw547Dps-unsplash (1).jpg";
 
 const Clubs = () => {
@@ -20,34 +20,43 @@ const Clubs = () => {
   }
   
   return (
-    <div className="clubs">
+    <div className="content-wrapper2">
       <h3 className="tx">Les Catégories</h3>
 
-      <div className="row">
-      <div>
-            <form class="input-group mb-2 col-md-12">
-            <div class="input-group-append">
-             <button class="btn-3"><span><BiFilter/></span></button>  
-                <select
-                className="btn-2 btn-default dropdown-toggle"
-                data-toggle="dropdown"
-              >
-                <option>Catégorie</option>
-                <option>Karaté</option>
+      <form>
+        <div class="inner-form">
+          <div class="basic-search">
+            <div class="input-field">
+              <input id="search" type="text" placeholder="Rechercher" />
+              <div class="icon-wrap">
+                <svg class="svg-inline--fa fa-search fa-w-16" fill="#ccc" aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="advance-search">
+            <span class="desc">Filtre</span>
+            <div class="row">
+              <div class="input-field">
+                <div class="input-select ">
+                  <select data-trigger="" class="form-select"name="choices-single-defaul">
+                    <option placeholder="" value="">Catégorie</option>
+                    <option>Karaté</option>
                 <option>Judo</option>
                 <option> taekwondo</option>
                 <option>kung fu</option>
                 <option>Gymnastique</option>
                 <option>kickboxing</option>
-              </select>
-              <select
-                id="mystuff"
-                className="btn-2 btn-default dropdown-toggle"
-                data-toggle="dropdown"
-                onChange={e => setfixed(e.target.value)}>
-              
-                <option value="1">Governorat</option>
-                <option value="2">Ariana</option>
+                  </select>
+                </div>
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  <select data-trigger="" class="form-select"name="choices-single-defaul"
+                   onChange={e => setfixed(e.target.value)}>
+                    <option placeholder="" value="">Gouvernement</option>
+                    <option value="2">Ariana</option>
                 <option value="3">Béja</option>
                 <option value="4">Ben Arous</option>
                 <option value="5">Bizerte</option>
@@ -71,66 +80,58 @@ const Clubs = () => {
                 <option value="23">Tozeur</option>
                 <option value="24">Tunis</option>
                 <option value="25">Zaghouan</option>
-              </select>
-              <select
-                id="mystuff"
-                className="btn-2 btn-default dropdown-toggle"
-                data-toggle="dropdown"
-                style={fix?{display:'inline-block'}:{display:'none'}}
-              >
-                <option value="1">Région</option>
-              
-              </select>
-              
+                  </select>
+                </div>
               </div>
-              <input
-                type="text"
-                class=" search-input text form-control"
-                placeholder="Rechercher"
-                
-                aria-describedby="basic-addon2"
-              />
-              <div class="input-group-append">
-                <button class="btn-search" type="button">
-                  
-                  <span>
-                    <FaSearch />
-                  </span>
-                </button>
+              
+            </div>
+           <div class="row second"style={fix?{marginBottom:'46px'}:{marginBottom:0}}>
+              <div class="input-field">
+                <div class="input-select">
+                  <select data-trigger="" style={fix?{display:'inline-block'}:{display:'none'}} class="form-select"name="choices-single-defaul">
+                    <option placeholder="" value="">Région</option>
+                    <option>Subject b</option>
+                    <option>Subject c</option>
+                  </select>
+                </div>
               </div>
-            </form>
+            
+             
+            </div>
+            <div class="row third">
+              <div class="input-field">
+                <div class="result-count">
+                  <span>108 </span>résultats</div>
+                <div class="group-btn">
+                  <button class="btn-delete" id="delete">RESET</button>
+                  <button class="btn-search">Rechercher</button>
+                </div>
+              </div>
+            </div>
           </div>
-     
-
-         
-        
-      </div>
-      <section className="clubs">
-        <div className="clb">
-          <img src={img2} alt="image" />
-          <h3
-            style={{
-              marginLeft: "100px",
-              position: "absolute",
-              top: "230px",
-              fontFamily: "Libre Baskerville serif",
-              fontSize: "30px",
-            }}
-          >
-            Karaté
-          </h3>
-          <button
-            style={{ marginLeft: "150px", position: "absolute", top: "280px" }}
-            className="btn "
-          >
-            <a
-              style={{ color: "white", textDecoration: "none" }}
-              href="/Details"
-            >
-              Détails
-            </a>
-          </button>
         </div>
+      </form>
+      <section className="clubs-section">
+        <div class="row">
+      <div class="col-md-4">
+                <div class="card-sl" >
+                    <div class="card-image">
+                        <img
+                            src={img1} />
+                    </div>
+
+                 
+                    <div class="card-heading">
+                       Karaté
+                    </div>
+                    
+                  
+                    
+                    <a class="card-button"href="/details"> Détails</a>
+                 
+                </div>
+            </div>
+           </div>
       </section>
     </div>
   );

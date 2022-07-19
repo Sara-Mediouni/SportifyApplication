@@ -15,7 +15,7 @@ if(window.scrollY > 80){
 window.addEventListener("scroll",setfixed)
     return (
         
-            <nav className= 'navbar col-md-12 col-xs-10 col-xs-offset-1 nav-2 navbar-expand-lg border-bottom border-secondary'>
+            <nav className= 'navbar  nav-2 navbar-expand-lg border-bottom border-secondary'>
   <a className="navbar-brand" href="/"><i><GiTennisBall style={{color:'#85D236'}}/></i>Sportify</a>
  
   <button class="navbar-toggler navbar-dark pull-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@ window.addEventListener("scroll",setfixed)
     <a className="nav-item nav-link" href="/">Acceuil</a>
       <a className="nav-item nav-link" href="/clubs">Clubs</a>
       <a className="nav-item nav-link" href="/">Salles</a>
-      <a className="nav-item nav-link" href="/">Evènements</a>
+      <a className="nav-item nav-link" href="/events">Evènements</a>
       <a className="nav-item nav-link" href="/contacts">Contacts</a>
       <a className="nav-icon" href="#"><i><BsFillPersonFill/></i></a>
     </div>

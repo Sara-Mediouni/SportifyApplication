@@ -19,6 +19,7 @@ import Details from './components/details';
 import Events from './components/Evènements';
 import Login from './components/Login';
 import Signup from './components/signup';
+import Sidenav from './components/Sidenav';
 function App() {
   return (
     <BrowserRouter >
@@ -32,7 +33,7 @@ function App() {
     <Route path="/club" element={<Club/>} exact />
     <Route path="/details" element={<Details/>} exact />
     <Route path="/events" element={<Events/>} exact />
-    
+    <Route path="/admin" element={<Sidenav/>} exact />
     </Routes>
     <Footer/>
  

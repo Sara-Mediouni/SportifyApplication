@@ -16,7 +16,7 @@ window.addEventListener("scroll",setfixed)
     return (
         
             <nav className= 'navbar  nav-2 navbar-expand-lg border-bottom border-secondary'>
-  <a className="navbar-brand" href="/"><i><GiTennisBall style={{color:'#85D236'}}/></i>Sportify</a>
+  <a className="navbar-brand" href="/"><i><GiTennisBall style={{color:'#85D236'}}/></i>Sportif</a>
  
   <button class="navbar-toggler navbar-dark pull-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <GiHamburgerMenu/>

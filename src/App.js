@@ -20,6 +20,7 @@ import Events from './components/Evènements';
 import Login from './components/Login';
 import Signup from './components/signup';
 import Sidenav from './components/Sidenav';
+import ClubsPage from './components/ClubsPage';
 function App() {
   return (
     <BrowserRouter >

@@ -181,3 +181,9 @@
   .latest h2{
     color:#85D236
   }
+  @media (max-width:750px){
+  h1{
+   
+        font-size: 30px;
+        
+  }}

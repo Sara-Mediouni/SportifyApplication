@@ -64,7 +64,7 @@ display: flex;
 
 }
 
-@media (max-width:820px){
+@media (max-width:850px){
    .body{
       overflow-x: hidden;
    }
@@ -89,24 +89,25 @@ display: flex;
            font-weight: 700;
          }
    
-         .btn{
+         .Slide .btn-slide{
             border-radius: 25px;
             background-color: #85D236;
-            width:120px;
+            width:180px;
             color: #fff;
             font-family: 'Libre Baskerville', serif;
-            font-size: 20px;
+            font-size: 23px;
             font-weight: 300;
-            margin-top: 10px !important;
-            margin-bottom: 50px;
+            left:0;
+            border-color: transparent;
+            margin-bottom: 30px;
          }
          .btn:hover{
            border-radius: 25px;
            background-color: #85D236;
-           width:120px;
+           width:180px;
            color: #fff;
            font-family: 'Libre Baskerville', serif;
-           font-size: 20px;
+           font-size: 25px;
            font-weight: 300;
         }
         .Slide{
@@ -119,6 +120,40 @@ display: flex;
    .body{
       overflow-x: hidden;
    }
+}
+@media (max-width:550px){
+   .Slide{
+      height:400px
+   }
+   .SLide p{
+      font-size: 25px;
+      padding:1rem;
+      width:300px
+      
+   }
+   .Slide p{
+      
+      font-size: 14px;
+
+      padding-top: 50px;
+      padding-left: 60px;
+   
+      width:1000px;
+      line-height: 30px;
+      letter-spacing: 0.25rem;
+   
+      }
+      .Slide .btn-slide{
+       
+         width:150px;
+         color: #fff;
+         font-family: 'Libre Baskerville', serif;
+         font-size: 20px;
+         font-weight: 300;
+         left:0;
+         border-color: transparent;
+         margin-bottom: 30px;
+      }
 }
 ::-webkit-scrollbar{
    width:5px;

@@ -481,8 +481,88 @@
         -ms-user-select: none;
             user-select: none;
   }
+  .card-sl{
+    max-width:320px;
+     }
+  @media screen and (max-width: 991px) {
+    .card-sl{
+max-width:320px;
+ }.tx{
+    
+     font-size: 30px;
+    
+     margin-left: 50px;
+   
+ }
+   form .inner-form  {
+     padding: 10px 80px 10px 15px;
+   }
+   form .inner-form  {
+     margin-right: 150px ;
+     width:70%
+   }
+     form .inner-form .basic-search .input-field input {
+     padding: 10px 80px 10px 15px;
+   }
+     form .inner-form .basic-search .input-field .icon-wrap {
+     width: 80px;
+     -ms-flex-pack: center;
+         justify-content: center;
+   }
+     form .inner-form .basic-search .input-field .icon-wrap svg {
+     width: 30px;
+     height: 30px;
+   }
+     form .inner-form .advance-search {
+     padding: 30px 15px;
+   }
+     form .inner-form .advance-search .row {
+     display: block;
+   }
+     form .inner-form .advance-search .input-field {
+     width: 100%;
+     margin-bottom: 20px;
+   }
+   .card-image img {
   
-  @media screen and (max-width: 767px) {
+    position: relative;
+     left: 40px!important;
+     margin-top:10px;
+     width: 90%!important;
+     margin-right: 20px;
+    
+    
+ }
+ .card-sl {
+   background-color: #1A1F14;
+   width:90%;
+   margin-left: 50px;                                      
+   margin-right: 80px;
+   margin-bottom: 40px;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+
+
+}
+  @media screen and (max-width: 790px) {
+     .card-sl{
+max-width:250px
+  }.tx{
+     
+      font-size: 30px;
+     
+      margin-left: 50px;
+    
+  }
+    form .inner-form  {
+      padding: 10px 80px 10px 15px;
+    }
+    form .inner-form  {
+      margin-right: 150px ;
+      width:70%
+    }
       form .inner-form .basic-search .input-field input {
       padding: 10px 80px 10px 15px;
     }
@@ -505,7 +585,175 @@
       width: 100%;
       margin-bottom: 20px;
     }
+    .card-image img {
+   
+     position: relative;
+      left: 40px!important;
+      margin-top:10px;
+      width: 90%!important;
+      margin-right: 20px;
+     
+     
   }
+  .card-sl {
+    background-color: #1A1F14;
+    width:90%;
+    margin-left: 50px;                                      
+    margin-right: 80px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .content-wrapper2{
+    
+    overflow-x: scroll;
+  }
+
+}
+@media screen and (max-width: 575px) {
+  .tx{
+   
+    font-size: 28px;
+   
+    margin-left: 50px;
+  
+}
+
+
+form .btn-search{
+      
+
+  width:90px;
+  
+  height:60px;
+
+ 
+}
+  form .inner-form  {
+    padding: 10px 80px 10px 15px;
+  }
+  form .inner-form  {
+    margin-right: 150px ;
+    width:70%
+  }
+    form .inner-form .basic-search .input-field input {
+    padding: 10px 80px 10px 15px;
+  }
+    form .inner-form .basic-search .input-field .icon-wrap {
+    width: 80px;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+    form .inner-form .basic-search .input-field .icon-wrap svg {
+    width: 30px;
+    height: 30px;
+  }
+    form .inner-form .advance-search {
+    padding: 30px 15px;
+  }
+    form .inner-form .advance-search .row {
+    display: block;
+  }
+    form .inner-form .advance-search .input-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card-image img {
+ 
+   position: relative;
+    left: 40px!important;
+    margin-top:10px;
+    width: 90%!important;
+    margin-right: 20px;
+   
+   
+}
+.card-sl {
+  background-color: #1A1F14;
+  width:90%;
+  margin-left: 10px!important;                                      
+  margin-right: 100px!important;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+}
+@media screen and (max-width: 800px) and (min-width:575px) {
+  .tx{
+   
+    font-size: 28px;
+   
+    margin-left: 50px;
+  
+}
+
+form .btn-search{
+      
+
+  width:90px;
+  
+  height:60px;
+
+ 
+}
+  form .inner-form  {
+    padding: 10px 80px 10px 15px;
+  }
+  form .inner-form  {
+    margin-right: 150px ;
+    width:70%
+  }
+    form .inner-form .basic-search .input-field input {
+    padding: 10px 80px 10px 15px;
+  }
+    form .inner-form .basic-search .input-field .icon-wrap {
+    width: 80px;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+    form .inner-form .basic-search .input-field .icon-wrap svg {
+    width: 30px;
+    height: 30px;
+  }
+    form .inner-form .advance-search {
+    padding: 30px 15px;
+  }
+    form .inner-form .advance-search .row {
+    display: block;
+  }
+    form .inner-form .advance-search .input-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card-image img {
+ 
+   position: relative;
+    left: 40px!important;
+    margin-top:10px;
+    width: 90%!important;
+    margin-right: 20px;
+   
+   
+}
+.card-sl {
+  background-color: #1A1F14;
+  width: 250px !important;;
+  margin-left: 10px!important;                                      
+  margin-right: 80px!important;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clubs-section{
+  padding-right: 20px;
+}
+
+}
   .card-sl {
     background-color: #1A1F14;
    margin-left: 50px;
@@ -592,4 +840,64 @@
   }
   .clubs-section{
     padding: 120px;
+  }
+  @media screen and (max-width: 433px)  {
+    .tx{
+     
+      font-size: 28px;
+     
+      margin-left: 50px;
+    
+  }
+  
+  form .btn-search{
+        
+  position: absolute;
+    width:90px;
+    left:0;
+    height:60px;
+    top:-80px;
+  
+   
+  }
+  form .btn-delete{
+        
+    position: absolute;
+      width:90px;
+      left:0px;
+      height:60px;
+      top:-40px
+    
+     
+    }
+    form .inner-form  {
+      padding: 10px 80px 10px 15px;
+    }
+    form .inner-form  {
+      margin-right: 150px ;
+      width:70%
+    }
+      form .inner-form .basic-search .input-field input {
+      padding: 10px 80px 10px 15px;
+    }
+      form .inner-form .basic-search .input-field .icon-wrap {
+      width: 80px;
+      -ms-flex-pack: center;
+          justify-content: center;
+    }
+      form .inner-form .basic-search .input-field .icon-wrap svg {
+      width: 30px;
+      height: 30px;
+    }
+      form .inner-form .advance-search {
+      padding: 30px 15px;
+    }
+      form .inner-form .advance-search .row {
+      display: block;
+    }
+      form .inner-form .advance-search .input-field {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
   }

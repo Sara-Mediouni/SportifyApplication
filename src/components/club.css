@@ -2,24 +2,50 @@
     
     width:100%;
     padding-left:100px;
+    overflow-x: hidden;
+   
+}
+.club-details{
+  width:90%
 }
 .container-club
 {
     background-color: #1A1F14;
     height:700px;
-    width:90%;
-   padding-bottom: 50px;
+    width:100%;
+ 
     border-radius: 20px;
 }
 .container-pal
 {
     background-color: #1A1F14;
+    padding-top: 10px;
     padding:50px;
-    margin-top:40px;
-    margin-bottom:40px;
-    width:90%;
+    margin-top:20px;
+    margin-bottom:80px;
+    height:200px;
+    width:100%;
     border-radius: 20px;
     color:#fff;
+}
+.container-pal h1
+{
+    padding-left: 20px;
+    color:#fff;
+}
+.container-pal li
+{
+    text-decoration: none;
+    color:#fff;
+    align-items: baseline;
+    list-style: none;
+    float:left;
+    padding-left:160px;
+    margin-bottom: 70px;
+}.container-pal li i
+{
+  font-size: 50px;
+  margin-bottom:50px;
 }
 .club h3{
     color: #85D236;
@@ -32,11 +58,15 @@
 .club img{
     position:relative;
     top:-40px;
-    height:400px;
-    left:600px;
+    height:350px;
+    left:70px;
     border-radius: 20px;
+    float:right;
 }
-
+.container-club .details{
+  float:left;
+  top:50px
+}
 .container-club li{
     
   padding:10px;
@@ -53,32 +83,45 @@ bottom:300px;
  
 }
 .container-club .description{
+  float: left;
+    text-align: justify;
+    padding-left: 60px;
+  top:100px;
     position: relative;
-  bottom:100px;
-    color:#fff;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 30px;
-    padding: 60px;
-    width:50%
+    width:80%
+  
     
    
   }
-  .container-club .description img{
-   
-  bottom:10px;
-   position:absolute;
-    padding: 10px;
-    width:80%;
-    right:0;
-    border-radius: 0;
-    height:300px;
+  .container-club .description p{
+
+     max-width:50%;
+     float:left;
+     top:-10px
+      
     
+      
+     
+    }
+  .container-club .description img{
+    float: right;
+    border-radius: 20px;
+height:250px;
+top:-70px;
+
+  
+   
+   
+  
+   
    
   }
   .container-club .description span{
     
       color:#85D236;
-      padding: 20px;
+      padding-left: 3px;
+      float:left;
+      font-size: 40px;
       
   }
 .container-club p span{
@@ -92,11 +135,268 @@ bottom:300px;
     position:relative;
  
     }
- .container-pal h3{
-        color: #85D236;
-        font-family: 'Libre Baskerville', serif;
-        font-size: 40px;
-        text-transform: uppercase;
-        padding:50px;
-        font-weight: 600;
+ 
+    .club .palmares{
+      bottom: 20px;
+      
+      width:90%;
+     
+   
+      
+     
     }
+    @media screen and (max-width: 999px) {
+      .container-club img{
+        
+        height:280px!important;
+        width:60%
+        
+    }
+    .container-club p{
+    
+      font-size: 25px;
+      
+     
+    }
+    .container-club .description img{
+   
+  top:-40px;
+  width:50%
+  
+     
+    }
+    .container-pal li
+{
+   
+    padding-left:30px;
+   
+ 
+}
+.container-pal li i
+{
+  font-size: 45px;
+  margin-bottom:50px;
+}
+    }
+    @media screen and (max-width: 901px) {
+      .container-club img{
+        
+        height:280px!important;
+        width:60%
+        
+    }
+    .club h3{
+      
+      font-size: 37px;
+     
+    
+  }
+    .container-club p{
+    
+      font-size: 23px;
+      
+     
+    }
+    .container-club .description img{
+   
+  top:-40px;
+  width:50%
+  
+     
+    }
+    .container-pal li
+{
+   
+    padding-left:30px;
+   
+ 
+}
+.container-pal h1
+{
+   
+   font-size: 30px;
+   
+ 
+}
+.container-pal li i
+{
+  font-size: 40px;
+  margin-bottom:50px;
+}
+    }
+    @media screen and (max-width: 830px) {
+      .container-club img{
+        
+        height:280px!important;
+        width:60%
+        
+    }
+    .club h3{
+      
+      font-size: 33px!important;
+     
+    
+  }
+    .container-club p{
+    
+      font-size: 20px;
+      
+     
+    }
+    .container-club .description img{
+   
+  top:-40px;
+  width:50%;
+  height:fit-content
+  
+     
+    }
+    .container-pal li
+{
+   
+    padding-left:20px;
+   
+ 
+}
+.container-pal h1
+{
+   
+   font-size: 28px;
+   
+ 
+}
+.container-pal li i
+{
+  font-size: 40px;
+  margin-bottom:50px;
+}
+    }
+    @media (max-width:768px){
+      .club-details img{
+        
+        height:280px!important;
+        width:60%;
+        left:30px;
+        
+    }
+    .club h3{
+      
+      font-size: 33px!important;
+     
+    
+  }
+    .container-club p{
+    
+      font-size: 20px;
+      
+     
+    }
+    .container-club .description img{
+   
+  top:-20px;
+ 
+  height: 220px !important;;
+  right:20px;
+     
+    }
+    .container-pal li
+{
+   
+    padding-left:10px;
+   
+ 
+}
+.container-pal h1
+{
+  padding-left: 0;
+   font-size: 28px;
+   
+ 
+}
+.container-pal li i
+{
+  font-size: 40px;
+  margin-bottom:50px;
+}
+    }
+  @media screen and (max-width: 700px) {
+    .container-club p{
+    
+      font-size: 18px;
+      
+     
+    }
+    .container-club .description img{
+   
+  top:-20px;
+ 
+  height: 220px !important;;
+  right:20px;
+     
+    }
+    .container-pal li
+{
+   
+    padding-left:0;
+   
+ 
+}
+.container-pal h1
+{
+  padding-left: 0;
+   font-size: 23px;
+   
+ 
+}
+.container-pal li i
+{
+  font-size: 40px;
+  margin-bottom:50px;
+}}
+    @media (max-width:638px){
+     .container-club{
+      height:800px
+     }
+   
+    .container-pal h1
+    {
+      padding-left: 0;
+       font-size: 20px;
+       
+     
+    }
+    .container-pal li i
+    {
+      font-size: 35px;
+      margin-bottom:50px;
+    }}
+      
+    @media (max-width:597px){
+    .container-club{
+      height:900px
+    }
+    .container-pal{
+      height:160px
+    }
+     .container-pal h1
+     {
+       padding-left: 0;
+        font-size: 20px;
+        
+      
+     }
+     .container-pal li i
+     {
+       font-size: 25px;
+       margin-bottom:50px;
+     }
+     .container-club .description img{
+   
+      top:-20px;
+     
+      height: 150px !important;;
+      right:20px;
+         
+        }}
+       
+  

@@ -80,39 +80,57 @@ color:#000;
         
               
               
-        @media screen and (max-width:1500px) {
-            .navbar .navbar-brand {
-                font-weight: 1000;
-
-                margin-left:30px
-            }
-         .collapse .navbar-nav .nav-icon{
-                font-size:28px;
-                margin-left: 100px;
+        @media screen and (max-width:1200px) {
+            .navbar{
+                width:100%
+               }
+                .navbar .navbar-brand {
+                    font-weight: 1000;
+    
+                    margin-left:40px;
+                    margin-right: 70px;
+                }
+                    
+                .navbar{
+                    padding:10px;
+                    height: 80px; 
+                    align-items: center;
+                    
+                }
+                .navbar-nav .nav-icon{
                 
-            }
-            .nav-item{
-                margin-left: 80px;
-                font-family: 'Libre Baskerville', serif;
-                font-size: 20px;
-                font-weight: 400;
-                margin-top:4px;
+                    right:-10px
+                 
+                }
                 
-            }
-            .navbar .navbar-collapse {
-                text-align: center;
-            }
+                .nav-item{
+                    margin-right: 10px;
+                    margin-left: 40px;
+                    font-family: 'Libre Baskerville', serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-top:8px;
+                    
+                }
+                .navbar .navbar-collapse {
+                    text-align: center;
+                }
             
             .navbar-collapse {
-                z-index: 1;
-                background-color: transparent;
-                height:320px;
-                width:100px;
+                
+                    z-index: 1;
+       
+                 
+                    
+                    display: none;
+                
             }
            }
           
-           @media screen and (max-width:990px){
-           
+           @media screen and (max-width:991px){
+           .navbar{
+            width:100%
+           }
             .navbar .navbar-brand {
                 font-weight: 1000;
 

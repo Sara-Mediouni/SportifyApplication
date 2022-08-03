@@ -29,7 +29,7 @@ window.addEventListener("scroll",setfixed)
       <a className="nav-item nav-link" href="/details">Salles</a>
       <a className="nav-item nav-link" href="/events">Evènements</a>
       <a className="nav-item nav-link" href="/contacts">Contacts</a>
-      <a className="nav-icon" href="#"><i><BsFillPersonFill/></i></a>
+      <a className=" nav-icon" href="#"><i><BsFillPersonFill/></i></a>
     </div>
     
   </div>

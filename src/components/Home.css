@@ -7,12 +7,12 @@
 
 .Slide{
 
- background-image: url('');
+ background-image: url('../images/FotoJet (10).png');
 background-size: 100% 100%;;
 background-position: center;
 
 background-repeat: no-repeat;
-height:500px;
+height:700px;
 display: -ms-flexbox;
 display: flex;
 -ms-flex-pack: justify;

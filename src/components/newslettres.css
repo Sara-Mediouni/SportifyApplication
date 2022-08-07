@@ -82,9 +82,13 @@
 
     .newsletter form{
         max-width: 43rem;
-        margin-left:25%;
+        margin-left:29%;
         text-align: center;
         padding:10px 0;
+    }
+    .newsletter  h3{
+      margin-left:19%
+      
     }
     
    

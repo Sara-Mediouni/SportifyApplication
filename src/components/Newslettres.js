@@ -26,7 +26,7 @@ if (inView){
   return (
     <section ref={ref}>
      <motion.div 
- class="newsletter"> <h3 className='col-md-7 offset-md-3'>Abonne-toi à la newlettres pour reçevoir toutes nos nouveautés !</h3>
+ class="newsletter"> <h3 className='col-lg-8 col-md-7 offset-md-3'>Abonne-toi à la newlettres pour reçevoir toutes nos nouveautés !</h3>
 <form class="input-group mb-3 ">
   <input type="text" class="input-news text text-1 form-control" placeholder="Saisir email" aria-label="Saisir email" aria-describedby="basic-addon2"/>
   <div class="input-group-append">

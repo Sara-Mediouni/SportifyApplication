@@ -11,7 +11,7 @@ const Footer = () => {
     return (
 
 		
-		<section class="footer-07">
+		<section className="footer-07">
 			
 			
 					
@@ -40,8 +40,8 @@ const Footer = () => {
 </div>
 					
 				
-			<div class="responsive">
-                <div class="col-md-10 col-sm-12  text-center icons">
+			<div className="responsive">
+                <div className="col-md-10 col-sm-12  text-center icons">
                     <p>Rejoignez-nous sur les réseaux sociaux</p>
 <a href="#"><i><SiGmail/></i></a>
 <a href="#"><i><ImFacebook/></i></a>
@@ -49,8 +49,8 @@ const Footer = () => {
 <a href="#"><i><AiFillInstagram/></i></a>
 <a href="#"><i><IoLogoWhatsapp/></i></a>
                 </div>
-				<div class="row mt-5">
-					<div class="col-md-10 col-sm-12 col-xs-8 text-center copyright">
+				<div className="row mt-5">
+					<div className="col-md-10 col-sm-12 col-xs-8 text-center copyright">
 						
 					<i><BiCopyright/></i>  Copyright 2022 | All rights reserved 
 				

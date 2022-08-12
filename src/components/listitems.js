@@ -19,7 +19,7 @@ import RoomIcon from '@mui/icons-material/Room';
 import {SiClubhouse} from 'react-icons/si';
 import './Sidenav.css'
 export const mainListItems = (
-  <div class='body'>
+  <div className='body'>
     <ListItem style={{marginBottom:'30px'}}button onClick={() => {
       window.location.href="/home"
     }}>

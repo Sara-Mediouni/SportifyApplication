@@ -29,7 +29,7 @@ if (inView){
 <motion.div 
 animate={animation}  
 className='article'>
-<img src={img1} class="image col-md-5 col-xs-3 col-xs-offset-1"/>
+<img src={img1} className="image col-md-5 col-xs-3 col-xs-offset-1"/>
 <p className='title'><span>Ons Jabeur</span> s'impose 
 contre Elise Mertens
  à Wimbledon et file en
@@ -39,7 +39,7 @@ contre Elise Mertens
 <motion.div 
 animate={animation} 
  className='article2'>
-<img src={img2} class="image2"/>
+<img src={img2} className="image2"/>
 <p className='title2'><span>Club africain:</span> 
  Bertrand Marchand
  fera-t-il la paire avec Sellimi ?</p>

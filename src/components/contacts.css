@@ -51,24 +51,40 @@
    font-size: 20px;
    font-weight: 300;
 }
-@media (max-width:670px){
-
+@media (max-width:1200px){
+form .form-control{
+    margin-bottom: 20px;
+}
    .contacts .box{
        padding-right: 40px; 
        height:600px
        
     }
     .btn{
-       margin-left: 80px;
-       margin-top:-30px
+       float:center;
+       text-align: center;
      }
      .contacts h2{
         color: #85D236;
         font-size: 30px;
 }}
-@media (max-width:600px){
-    .btn-nv{
+@media (max-width:768px){
+    .btn{
    float: center;
    text-align: center;
+   
+      }
+}
+@media (max-width:600px){
+    .btn{
+   float: center;
+   text-align: center;
+   
+      }
+}
+@media (max-width:578px){
+    .btn{
+   width: 130px!important;
+   
       }
 }

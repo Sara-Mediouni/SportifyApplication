@@ -22,8 +22,8 @@ function TableRows({rowsData, deleteTableRows, handleChange}) {
                 <td><input type="text" value={ adresse}  onChange={(evnt)=>(handleChange(index, evnt))} name="emailAddress" className="form-control"/> </td>
                 <td><input type="text" value={logo}  onChange={(evnt)=>(handleChange(index, evnt))} name="emailAddress" className="form-control"/> </td>
                
-                <td>  <a class="delete" title="Delete" data-toggle="tooltip"onClick={()=>(deleteTableRows(index))}><DeleteIcon/></a>
-                <a class="edit" title="Edit" data-toggle="tooltip"><EditIcon/></a></td>
+                <td>  <a className="delete" title="Delete" data-toggle="tooltip"onClick={()=>(deleteTableRows(index))}><DeleteIcon/></a>
+                <a className="edit" title="Edit" data-toggle="tooltip"><EditIcon/></a></td>
             </tr>
 
             )

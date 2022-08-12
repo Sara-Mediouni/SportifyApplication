@@ -23,13 +23,13 @@ export default function Events() {
     }
       },[inView]);
   return (
-    <section ref={ref} class="events"> 
+    <section ref={ref} className="events"> 
     <h3>Evènements</h3>
         <motion.div 
-animate={animation} class="article">
+animate={animation} className="article">
        
-            <img class="image" src={img1}/>
-<p class="title"><span>20 Mars 2022</span><br/>9 h 00 min - 14 h 00 min</p>
+            <img className="image" src={img1}/>
+<p className="title"><span>20 Mars 2022</span><br/>9 h 00 min - 14 h 00 min</p>
             
         </motion.div>
     </section>

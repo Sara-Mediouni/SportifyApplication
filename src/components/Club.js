@@ -10,10 +10,10 @@ import {RiMedalFill}from 'react-icons/ri'
 import {IoIosTime} from 'react-icons/io';
 export default function Club() {
   return (
-    <div class='club'>
+    <div className='club'>
     <section className='club-details col-md-12 col-sm-8'> 
        <h3>Nom club</h3>
-<div class='container-club col-md-12 col-sm-8'>
+<div className='container-club col-md-12 col-sm-8'>
     <img src={img1}></img> 
   
     <p className='details col-md-4 col-sm-4'>

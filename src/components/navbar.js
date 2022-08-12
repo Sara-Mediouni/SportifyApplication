@@ -1,5 +1,9 @@
 import React from 'react';
 import './navbar.css';
+import "jquery/dist/jquery.min.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import {BsFillPersonFill} from 'react-icons/bs';
 import {GiTennisBall} from 'react-icons/gi';
 import { useState } from 'react';
@@ -18,8 +22,8 @@ window.addEventListener("scroll",setfixed)
             <nav className= 'navbar  nav-2 navbar-expand-lg border-bottom border-secondary'>
   <a className="navbar-brand" href="/"><i><GiTennisBall style={{color:'#85D236'}}/></i>Sportif</a>
  
-  <button class="navbar-toggler navbar-dark pull-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <GiHamburgerMenu/>
+  <button className="navbar-toggler navbar-dark pull-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+     <i><GiHamburgerMenu/></i> 
   </button>
  
   <div className=" collapse navbar-collapse" id="navbarNavDropdown">

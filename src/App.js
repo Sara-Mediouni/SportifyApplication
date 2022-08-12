@@ -1,7 +1,7 @@
 
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "jquery/dist/jquery.min.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import "bootstrap/dist/js/bootstrap.min.js";
 import Footer from "./components/footer";
 import Home from "./components/Home";

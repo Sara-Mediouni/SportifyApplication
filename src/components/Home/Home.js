@@ -1,11 +1,11 @@
 import React from 'react'
-import Footer from './footer'
-import Navbar from './navbar'
+import Footer from '../Footer/footer'
+import Navbar from '../Navbar/navbar'
 import './Home.css'
-import TextAnimation from './Text-animation'
-import Actualites from './Actualites'
-import Newslettres from './Newslettres'
-import Events from './events';
+import TextAnimation from '../Assets/Text-animation'
+import Actualites from '../HomeSections/Actualites'
+import Newslettres from '../Newslettres/Newslettres'
+import Events from '../HomeSections/events';
 import {motion} from 'framer-motion';
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import styled,{keyframes} from "styled-components";
 import style from 'styled-components'
-import './Home.css'
+import '../Home/Home.css'
 
 export default function TextAnimation() {
   const reactarray="Sport".split("")

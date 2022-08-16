@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
 import {useAnimation} from 'framer-motion';
-import img1 from '../images/received_630585981340841-1024x576.jpg'
+import img1 from '../../images/received_630585981340841-1024x576.jpg'
 export default function Events() {
     const{ref, inView}=useInView({
         threshold:0.2

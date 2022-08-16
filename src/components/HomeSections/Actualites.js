@@ -1,7 +1,7 @@
 import React from 'react'
 import './news.css';
-import img1 from '../images/53c54.jpg';
-import img2 from '../images/adel_sellimi_1657030641.jpg'
+import img1 from '../../images/53c54.jpg';
+import img2 from '../../images/adel_sellimi_1657030641.jpg'
 import {motion} from 'framer-motion'
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';

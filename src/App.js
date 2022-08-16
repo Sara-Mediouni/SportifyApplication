@@ -3,24 +3,22 @@ import "jquery/dist/jquery.min.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "bootstrap/dist/js/bootstrap.min.js";
-import Footer from "./components/footer";
-import Home from "./components/Home";
+
 import {
   BrowserRouter ,
   Routes,
   Route,
   Link
 } from "react-router-dom";
-import Contacts from "./components/Contacts";
-import Clubs from "./components/Clubs";
-import Navbar from './components/navbar';
-import Club from './components/Club';
-import Details from './components/details';
-import Events from './components/Evènements';
-import Login from './components/Login';
-import Signup from './components/signup';
-import Sidenav from './components/Sidenav';
-import ClubsPage from './components/ClubsPage';
+import Navbar from "./components/Navbar/navbar";
+import Contacts from "./components/Contacts/Contacts";
+import Club from "./components/Club/Club";
+import Clubs from './components/Clubs/Clubs'
+import Details from './components/Clubs/details'
+import Events from "./components/Events/Evènements";
+import Footer from "./components/Footer/footer";
+import Home from "./components/Home/Home";
+
 function App() {
   return (
     <BrowserRouter >
@@ -34,7 +32,7 @@ function App() {
     <Route path="/club" element={<Club/>} exact />
     <Route path="/details" element={<Details/>} exact />
     <Route path="/events" element={<Events/>} exact />
-    <Route path="/admin" element={<Sidenav/>} exact />
+    
     </Routes>
     <Footer/>
  

@@ -1,7 +1,7 @@
 import React from 'react';
 import './club.css';
-import img1 from '../images/received_630585981340841-1024x576.jpg';
-import img2 from '../images/Capture.PNG';
+import img1 from '../../images/received_630585981340841-1024x576.jpg';
+import img2 from '../../images/Capture.PNG';
 import {BiCategoryAlt} from 'react-icons/bi';
 import {IoLocationSharp} from 'react-icons/io5';
 import {BsTelephoneFill,BsFillCalendarDateFill} from 'react-icons/bs';

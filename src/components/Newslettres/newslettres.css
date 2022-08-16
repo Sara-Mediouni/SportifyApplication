@@ -18,7 +18,7 @@
     }
     
 .newsletter{
-    background:url(../images/josh-calabrese-zcYRw547Dps-unsplash\ \(1\).jpg) no-repeat;
+    background:url('../../images/josh-calabrese-zcYRw547Dps-unsplash\ \(1\).jpg') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

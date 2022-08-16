@@ -1,5 +1,4 @@
 import React from "react";
-import "./Slider.css";
 import { useInView } from "react-intersection-observer";
 import './news.css';
 import img1 from '../images/53c54.jpg';

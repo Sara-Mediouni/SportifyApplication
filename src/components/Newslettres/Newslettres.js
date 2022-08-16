@@ -1,6 +1,6 @@
 import React from 'react'
 import './newslettres.css'
-import img1 from '../images/josh-calabrese-zcYRw547Dps-unsplash (1).jpg';
+import img1 from '../../images/josh-calabrese-zcYRw547Dps-unsplash (1).jpg';
 import {motion} from 'framer-motion'
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';

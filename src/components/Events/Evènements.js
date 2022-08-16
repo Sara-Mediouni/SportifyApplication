@@ -1,17 +1,17 @@
 import React from 'react'
 import './eventspage.css';
-import img1 from '../images/Sports_1.jpg';
-import img2 from '../images/Sports_2.jpg';
-import img3 from '../images/Sports_3.jpg';
-import img4 from '../images/Sports_4.jpg';
-import img5 from '../images/Sports_5.jpg';
-import img6 from '../images/Sports_6.jpg';
-import img7 from '../images/Sports_7.jpg';
-import img8 from '../images/Sports_8.jpg';
-import img9 from '../images/Sports_9.jpg';
-import img10 from '../images/Sports_10.jpg';
-import img11 from '../images/Sports_11.jpg';
-import img12 from '../images/Sports_12.jpg';
+import img1 from '../../images/Sports_1.jpg';
+import img2 from '../../images/Sports_2.jpg';
+import img3 from '../../images/Sports_3.jpg';
+import img4 from '../../images/Sports_4.jpg';
+import img5 from '../../images/Sports_5.jpg';
+import img6 from '../../images/Sports_6.jpg';
+import img7 from '../../images/Sports_7.jpg';
+import img8 from '../../images/Sports_8.jpg';
+import img9 from '../../images/Sports_9.jpg';
+import img10 from '../../images/Sports_10.jpg';
+import img11 from '../../images/Sports_11.jpg';
+import img12 from '../../images/Sports_12.jpg';
 export default function Events() {
   return (
     <div className="content-wrapper">

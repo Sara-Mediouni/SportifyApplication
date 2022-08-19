@@ -483,8 +483,9 @@
   }
   .card-sl{
     max-width:320px;
+    margin-top:40px
      }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1100px) {
     .card-sl{
 max-width:320px;
  }.tx{

@@ -7,9 +7,14 @@ import { useInView } from "react-intersection-observer";
 import { useEffect ,useState} from "react";
 import { useAnimation } from "framer-motion";
 import img1 from "../../images/1.jpg";
+import axios from "axios";
+import { SearchTwoTone } from "@mui/icons-material";
+
 
 
 const Clubs = () => {
+  const [clubs, setClubs] = React.useState([{clubs:""}]);
+  const [act, setact] = React.useState([{act:""}]);
   const[fix,setfix]=useState(false)
   function setfixed(){
  
@@ -486,8 +491,25 @@ const kebili =  [
       if (type) {
         options = type.map((el) => <option key={el}>{el}</option>);
       }
- 
-  
+      const show=()=>{
+        axios.get("http://localhost:3000/api/club/")
+         .then(response => {
+           const clubs = response.data;
+           setClubs(clubs)
+         })
+    }
+    useEffect(() => {
+      const activités=[]
+    
+     show();
+    
+    
+    
+    
+     
+   
+   }, []);
+   
   return (
     <div className="content-wrapper2">
       <h3 className="tx">Les Catégories</h3>
@@ -583,16 +605,23 @@ const kebili =  [
       </form>
       <section className="clubs-section">
         <div className="row justify-content-start">
-      <div className="col-lg-4 col-md-4 col-sm-8 offset-xs-1">
-                <div className="card-sl" >
-                    <div className="card-image">
+        {clubs.map((c)=>c.Activité.filter((item,
+            index) => c.Activité.indexOf(item) === index).map((a,index)=>{
+            return( <div key={index}className="col-lg-4 col-md-4 col-sm-2 offset-xs-1">
+       
+        
+                   <div className="card-sl" >
+                  {/* <div className="card-image">
+                        <img
+                            src={img1} />
+                    </div>*/}  <div className="card-image">
                         <img
                             src={img1} />
                     </div>
 
                  
                     <div className="card-heading">
-                       Karaté
+                     {a}
                     </div>
                     
                   
@@ -600,25 +629,15 @@ const kebili =  [
                     <a className="card-button"href="/details"> Détails</a>
                  
                 </div>
-            </div>
-            <div className="col-md-4 col-sm-2">
-                <div className="card-sl" >
-                    <div className="card-image">
-                        <img
-                            src={img1} />
-                    </div>
-
-                 
-                    <div className="card-heading">
-                       Karaté
-                    </div>
-                    
-                  
-                    
-                    <a className="card-button"href="/details"> Détails</a>
-                 
-                </div>
-            </div>
+            </div>)}))
+        }
+          
+           
+     
+      
+   
+     
+           
            </div>
       </section>
     </div>

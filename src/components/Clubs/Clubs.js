@@ -605,8 +605,7 @@ const kebili =  [
       </form>
       <section className="clubs-section">
         <div className="row justify-content-start">
-        {clubs.map((c)=>c.Activité.filter((item,
-            index) => c.Activité.indexOf(item) === index).map((a,index)=>{
+        {clubs.map((c)=>c.Activité.map((a,index)=>{
             return( <div key={index}className="col-lg-4 col-md-4 col-sm-2 offset-xs-1">
        
         

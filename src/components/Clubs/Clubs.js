@@ -492,14 +492,14 @@ const kebili =  [
         options = type.map((el) => <option key={el}>{el}</option>);
       }
       const show=()=>{
-        axios.get("http://localhost:3000/api/club/")
+        axios.get("http://localhost:3000/api/club/activity")
          .then(response => {
            const clubs = response.data;
            setClubs(clubs)
          })
     }
     useEffect(() => {
-      const activités=[]
+     
     
      show();
     
@@ -605,30 +605,26 @@ const kebili =  [
       </form>
       <section className="clubs-section">
         <div className="row justify-content-start">
-        {clubs.map((c)=>c.Activité.map((a,index)=>{
-            return( <div key={index}className="col-lg-4 col-md-4 col-sm-2 offset-xs-1">
+        {clubs !== undefined &&clubs.map((c,index)=>{
+            return( <div className="col-lg-4 col-md-4 col-sm-2 offset-xs-1">
        
         
                    <div className="card-sl" >
-                  {/* <div className="card-image">
-                        <img
-                            src={img1} />
-                    </div>*/}  <div className="card-image">
-                        <img
-                            src={img1} />
-                    </div>
+                  /* <div className="card-image">
+                        
+                    </div>*/
 
                  
                     <div className="card-heading">
-                     {a}
+                     {c.toString()}
                     </div>
                     
                   
                     
-                    <a className="card-button"href="/details"> Détails</a>
+                    <a className="card-button"href={"/details/"+c}> Détails</a>
                  
                 </div>
-            </div>)}))
+            </div>)})
         }
           
            

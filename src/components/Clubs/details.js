@@ -7,11 +7,12 @@ import { useInView } from "react-intersection-observer";
 import { useEffect,useState } from "react";
 import { useAnimation } from "framer-motion";
 import img1 from "../../images/1.jpg";
-
-
-const Details = () => {
+import { useParams } from 'react-router-dom'
+import axios from "axios";
+const Details = (props) => {
   const [selected, setSelected] = React.useState("");
-  
+  const { act } = useParams();
+  const [act1, setact] = React.useState([{act:""}]);
       /** Function that will set different values to state variable
        * based on which dropdown is selected
        */
@@ -486,6 +487,19 @@ const kebili =  [
     console.log(fix)
   
   }
+  const show=()=>{
+    axios.get("http://localhost:3000/api/club/find/"+act)
+     .then(response => {
+       const act = response.data;
+       setact(act)
+     })
+}
+
+  useEffect(() => {
+  show()
+  }, [act])
+
+
   return (
     <div className="content-wrapper2">
       <h3 className="tx">Les Clubs</h3>
@@ -566,24 +580,31 @@ const kebili =  [
       </form>
       <section className="clubs-section">
         <div className="row">
-      <div className="col-lg-4 col-md-4 col-sm-8 offset-xs-1">
-                <div className="card-sl">
-                    <div className="card-image">
+        {act !== undefined &&act1.map((c,index)=>{
+            return( <div key={index}className="col-lg-4 col-md-4 col-sm-2 offset-xs-1">
+       
+        
+                   <div className="card-sl" >
+                  {/* <div className="card-image">
                         <img
                             src={img1} />
+                    </div>*/}  <div className="card-image">
+                        <img
+                            src={"http://localhost:3000/images/"+c.Logo} />
                     </div>
 
                  
                     <div className="card-heading">
-                       Karaté
+                     {c.Nom_club}
                     </div>
                     
                   
                     
-                    <a className="card-button"href=""> Détails</a>
+                    <a className="card-button"href={"/club/"+c._id}> Détails</a>
                  
                 </div>
-            </div>
+            </div>)})
+        }
            </div>
       </section>
     </div>

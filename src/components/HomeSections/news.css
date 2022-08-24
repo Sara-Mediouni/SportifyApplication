@@ -11,7 +11,7 @@
    padding-top: 50px;
    color: #fff;
    font-size: 40px;
-   font-family: 'Libre Baskerville', serif;
+   
 }
 .news .article{
     height: 320px;
@@ -45,8 +45,6 @@
     max-width: 40%;
     padding-left:60px;
     font-weight: 700;
-    text-transform: uppercase;
-    font-family: 'Libre Baskerville', serif;
     color:#000
   
 }
@@ -58,8 +56,6 @@
    
     padding:60px;
     font-weight: 700;
-    text-transform: uppercase;
-    font-family: 'Libre Baskerville', serif;
 }
 .title span{
     color:#85D236;
@@ -98,8 +94,6 @@
     max-width: 30%;
     padding-right:60px;
     font-weight: 700;
-    text-transform: uppercase;
-    font-family: 'Libre Baskerville', serif;
     max-width:40%;
     
 }
@@ -111,8 +105,7 @@
    
     padding:60px;
     font-weight: 700;
-    text-transform: uppercase;
-    font-family: 'Libre Baskerville', serif;
+
 }
 .title2 span{
     color:#85D236;
@@ -146,7 +139,6 @@
    padding-top: 50px;
    color: #fff;
    font-size: 40px;
-   font-family: 'Libre Baskerville', serif;
 }
 .events .title{
     position:absolute;
@@ -157,8 +149,7 @@
     padding:20px;
   
     font-weight: 900;
-    text-transform: uppercase;
-    font-family:'Bebas Neue';
+   
 }
 .events .title span{
     color:#85D236;

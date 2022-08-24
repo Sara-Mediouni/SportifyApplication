@@ -49,9 +49,9 @@
 }
 .club h3{
     color: #85D236;
-    font-family: 'Libre Baskerville', serif;
+    
     font-size: 40px;
-    text-transform: uppercase;
+  
     padding:50px;
     font-weight: 600;
 }
@@ -77,7 +77,6 @@
   position: relative;
 bottom:300px;
   color:#fff;
-  font-family: 'Libre Baskerville', serif;
   font-size: 30px;
   
  
@@ -88,8 +87,8 @@ bottom:300px;
     padding-left: 60px;
   top:100px;
     position: relative;
-    width:80%
-  
+    width:80%;
+  align-items:baseline;
     
    
   }
@@ -97,7 +96,8 @@ bottom:300px;
 
      max-width:50%;
      float:left;
-     top:-10px
+     top:20px;
+     left:20px
       
     
       
@@ -121,8 +121,8 @@ top:-70px;
       color:#85D236;
       padding-left: 3px;
       float:left;
-      font-size: 40px;
-      align-self: baseline;
+      font-size: 35px;
+      bottom:-10px
       
   }
 .container-club p span{

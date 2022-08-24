@@ -51,10 +51,10 @@ export default function Club(props) {
        </ul>
     </p>  
     <div className='description col-md-4 col-sm-4'>
-    <img src={img2}/><p>
-    <span><IoLocationSharp/></span>
+    <span><IoLocationSharp/></span> <img src={img2}/><p>
+   
   {
-    club.Région+" "+club.Gouvernement
+    club.Region+" "+club.Gouvernement
   }
 
    </p>

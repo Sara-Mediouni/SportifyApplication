@@ -29,9 +29,9 @@
     }
     .tx{
         color: #85D236;
-        font-family: 'Libre Baskerville', serif;
+        
         font-size: 40px;
-        text-transform: uppercase;
+        
         padding:70px;
         margin-left: 110px;
         font-weight: 600;
@@ -68,7 +68,7 @@
        padding-top: 50px;
        color: #fff;
        font-size: 40px;
-       font-family: 'Libre Baskerville', serif;
+     
     }
     .events1 .title{
         position:absolute;
@@ -79,8 +79,7 @@
         padding:20px;
       
         font-weight: 900;
-        text-transform: uppercase;
-        font-family:'Bebas Neue';
+        
     }
     .events1 .title span{
         color:#85D236;

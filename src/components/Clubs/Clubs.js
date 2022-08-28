@@ -529,19 +529,7 @@ const kebili =  [
           <div className="advance-search">
             <span className="desc">Filtre</span>
             <div className="row">
-              <div className="input-field">
-                <div className="input-select ">
-                  <select data-trigger="" className="form-select"name="choices-single-defaul">
-                    <option placeholder="" value="">Catégorie</option>
-                    <option>Karaté</option>
-                <option>Judo</option>
-                <option> taekwondo</option>
-                <option>kung fu</option>
-                <option>Gymnastique</option>
-                <option>kickboxing</option>
-                  </select>
-                </div>
-              </div>
+            
               <div className="input-field">
               <div className="input-select">
                   <select data-trigger=""   onChange={changeSelectOptionHandler} className="form-select"name="choices-single-defaul">

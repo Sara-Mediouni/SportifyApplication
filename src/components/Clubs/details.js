@@ -15,12 +15,20 @@ const Details = (props) => {
   const [act1, setact] = React.useState([{act:""}]);
       /** Function that will set different values to state variable
        * based on which dropdown is selected
-       */
+    
+      */
+       const [queryregion, setqueryregion] = React.useState(null);
+       const [querygouv, setquerygouv] = React.useState(null);
       const changeSelectOptionHandler = (event) => {
         setSelected(event.target.value);
+        setquerygouv(event.target.value);
         setfixed();
       };
-      
+      const changeSelectOptionHandlerregion = (event) => {
+           
+        console.log(event.target.value)
+        setqueryregion(event.target.value)
+       };
       /** Different arrays for different dropdowns */
       const ariana = [
        "Ariana Ville",
@@ -487,8 +495,16 @@ const kebili =  [
     console.log(fix)
   
   }
+  const find=()=>{
+    
+    axios.get("http://localhost:3000/api/club/find/"+act+"/"+querygouv+"/"+queryregion)
+    .then(response => {
+      const clubs = response.data;
+      const act = response.data;
+       setact(act)
+    })}
   const show=()=>{
-    axios.get("http://localhost:3000/api/club/find/"+act)
+    axios.get("http://localhost:3000/api/club/find/"+act+"/null/null")
      .then(response => {
        const act = response.data;
        setact(act)
@@ -504,7 +520,7 @@ const kebili =  [
     <div className="content-wrapper2">
       <h3 className="tx">Les Clubs</h3>
 
-      <form>
+      <form onSubmit={(e)=>{e.preventDefault();find()}}>
         <div className="inner-form">
           <div className="basic-search">
             <div className="input-field">
@@ -554,7 +570,7 @@ const kebili =  [
               </div>
               <div className="input-field">
                 <div className="input-select">
-                  <select data-trigger="" style={fix?{display:'inline-block'}:{display:'none'}} className="form-select"name="choices-single-defaul">
+                  <select onChange={changeSelectOptionHandlerregion}data-trigger="" style={fix?{display:'inline-block'}:{display:'none'}} className="form-select"name="choices-single-defaul">
                     <option placeholder="" value="">Région</option>
                     {
               /** This is where we have used our options variable */
@@ -570,8 +586,8 @@ const kebili =  [
                 <div className="result-count">
                   <span>108 </span>résultats</div>
                 <div className="group-btn">
-                  <button className="btn-delete" id="delete">RESET</button>
-                  <button className="btn-search">Rechercher</button>
+                  <button type="button"onClick={()=>{}} className="btn-delete" id="delete">RESET</button>
+                  <button type="submit"className="btn-search">Rechercher</button>
                 </div>
               </div>
             </div>

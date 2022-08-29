@@ -16,6 +16,8 @@ const Clubs = () => {
   const [clubs, setClubs] = React.useState([{clubs:""}]);
   const [act, setact] = React.useState([{act:""}]);
   const[fix,setfix]=useState(false)
+  const [queryregion, setqueryregion] = React.useState(null);
+  const [querygouv, setquerygouv] = React.useState(null);
   function setfixed(){
  
     setfix(true);
@@ -27,11 +29,16 @@ const Clubs = () => {
       /** Function that will set different values to state variable
        * based on which dropdown is selected
        */
-      const changeSelectOptionHandler = (event) => {
-        setSelected(event.target.value);setfixed();
-
+       const changeSelectOptionHandler = (event) => {
+        setSelected(event.target.value);
+        setquerygouv(event.target.value);
+        setfixed();
       };
-      
+      const changeSelectOptionHandlerregion = (event) => {
+           
+        console.log(event.target.value)
+        setqueryregion(event.target.value)
+       };
       /** Different arrays for different dropdowns */
       const ariana = [
        "Ariana Ville",
@@ -491,8 +498,16 @@ const kebili =  [
       if (type) {
         options = type.map((el) => <option key={el}>{el}</option>);
       }
+      const find=()=>{
+    
+        axios.get("http://localhost:3000/api/club/activity/"+querygouv+"/"+queryregion)
+        .then(response => {
+          const clubs = response.data;
+          setClubs(clubs)
+          console.log(clubs)
+        })}
       const show=()=>{
-        axios.get("http://localhost:3000/api/club/activity")
+        axios.get("http://localhost:3000/api/club/activity/null/null")
          .then(response => {
            const clubs = response.data;
            setClubs(clubs)
@@ -514,7 +529,7 @@ const kebili =  [
     <div className="content-wrapper2">
       <h3 className="tx">Les Catégories</h3>
 
-      <form>
+      <form onSubmit={(e)=>{e.preventDefault();find()}} style={{marginLeft:'25%'}}>
         <div className="inner-form">
           <div className="basic-search">
             <div className="input-field">
@@ -560,14 +575,12 @@ const kebili =  [
                 <option>Zaghouan</option>
                   </select>
                 </div>
+                
               </div>
-              
-            </div>
-           <div className="row second"style={fix?{marginBottom:'46px'}:{marginBottom:0}}>
               <div className="input-field">
                 <div className="input-select">
-                  <select data-trigger="" style={fix?{display:'inline-block'}:{display:'none'}} className="form-select"name="choices-single-defaul">
-                    <option placeholder="" value=""></option>
+                  <select data-trigger="" onChange={changeSelectOptionHandlerregion} className="form-select"name="choices-single-defaul">
+                    <option placeholder="" value="">Région</option>
                     {
               /** This is where we have used our options variable */
               options
@@ -575,16 +588,15 @@ const kebili =  [
                   </select>
                 </div>
               </div>
-            
-             
             </div>
+           
             <div className="row third">
               <div className="input-field">
                 <div className="result-count">
                   <span>108 </span>résultats</div>
                 <div className="group-btn">
                   <button className="btn-delete" id="delete">RESET</button>
-                  <button className="btn-search">Rechercher</button>
+                  <button  type="submit" className="btn-search" >Rechercher</button>
                 </div>
               </div>
             </div>

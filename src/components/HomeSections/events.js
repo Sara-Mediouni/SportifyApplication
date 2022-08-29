@@ -32,6 +32,7 @@ animate={animation} className="article">
 <p className="title"><span>20 Mars 2022</span><br/>9 h 00 min - 14 h 00 min</p>
             
         </motion.div>
+        <button className="addbutton">voir plus</button>
     </section>
   )
 }

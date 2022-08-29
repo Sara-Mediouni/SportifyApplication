@@ -6,7 +6,16 @@ import {motion} from 'framer-motion'
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
 import {useAnimation} from 'framer-motion'
+import axios from 'axios';
 export default function Actualites() {
+  const [events, setEvents] = React.useState([{id: 0}]);
+  const show=()=>{
+    axios.get("http://localhost:3000/api/event/")
+    .then(response => {
+      const events = response.data;
+      setEvents(events)
+      console.log(events)
+  })};
   const{ref, inView}=useInView({
     threshold:0.2
   });
@@ -22,29 +31,29 @@ if (inView){
 }if (!inView){
   animation.start({x:'-100vw'})
 }
-  },[inView]);
+  },
+  show()
+  ,[inView]);
   return (
     <section ref={ref} className='news col-md-12 col-xs-10 col-xs-offset-1'>
 <h3>Actualités</h3>
 <motion.div 
 animate={animation}  
 className='article'>
-<img src={img1} className="image col-md-5 col-xs-3 col-xs-offset-1"/>
-<p className='title'><span>Ons Jabeur</span> s'impose 
-contre Elise Mertens
- à Wimbledon et file en
- quarts de finale</p>
+  
+<img src={"http://localhost:3000/uploadsevent/"+events[0].Image} className="image col-md-5 col-xs-3 col-xs-offset-1"/>
+<p className='title'><span>{events[0].Titre}</span> {events[0].Description}</p>
 
 </motion.div>
 <motion.div 
 animate={animation} 
  className='article2'>
-<img src={img2} className="image2"/>
-<p className='title2'><span>Club africain:</span> 
- Bertrand Marchand
- fera-t-il la paire avec Sellimi ?</p>
+<img src="" className="image2"/>
+<p className='title2'><span>{events[1].Titre}</span> 
+{events[1].Description}</p>
 
 </motion.div>
+<button className="addbutton">voir plus</button>
     </section>
   )
 }

@@ -1,18 +1,8 @@
 import React, { useEffect } from 'react'
 import './eventspage.css';
-import img1 from '../../images/Sports_1.jpg';
-import img2 from '../../images/Sports_2.jpg';
-import img3 from '../../images/Sports_3.jpg';
-import img4 from '../../images/Sports_4.jpg';
-import img5 from '../../images/Sports_5.jpg';
-import img6 from '../../images/Sports_6.jpg';
-import img7 from '../../images/Sports_7.jpg';
-import img8 from '../../images/Sports_8.jpg';
-import img9 from '../../images/Sports_9.jpg';
-import img10 from '../../images/Sports_10.jpg';
-import img11 from '../../images/Sports_11.jpg';
-import img12 from '../../images/Sports_12.jpg';
+
 import axios from 'axios';
+import {motion} from 'framer-motion';
 export default function Events() {
  const [news, setnews] = React.useState([{id: 0}]);
   const [events, setevents] = React.useState([{id: 0}]);
@@ -41,6 +31,9 @@ export default function Events() {
   }
   ,[]);
   return (
+    <motion.div className="content" initial={{opacity:0}}
+    animate={{opacity:1}} transition={{duration:.4,stiffness:120}}>
+   
     <div className="content-wrapper">
           <div className="container">
             <div className="col-sm-12">
@@ -122,5 +115,6 @@ export default function Events() {
             </div>
           </div>
         </div>
+        </motion.div>
   )
 }

@@ -1,5 +1,5 @@
 import React from "react";
-
+import {motion} from 'framer-motion';
 import "./clubs.css";
 import { FaSearch } from "react-icons/fa";
 import {BiFilter} from "react-icons/bi"
@@ -517,6 +517,8 @@ const kebili =  [
 
 
   return (
+    <motion.div className="content" initial={{opacity:0}}
+    animate={{opacity:1}} transition={{duration:.4,stiffness:120}}>
     <div className="content-wrapper2">
       <h3 className="tx">Les Clubs</h3>
 
@@ -624,6 +626,7 @@ const kebili =  [
            </div>
       </section>
     </div>
+    </motion.div>
   );
 };
 

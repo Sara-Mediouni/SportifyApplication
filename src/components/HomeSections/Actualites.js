@@ -30,7 +30,7 @@ if (inView){
   animation.start({
     x:0,
     transition:{
-      type:'spring',duration:1,bounce:0.8
+      type:'spring',duration:1,bounce:0.3
     }
   });
 }if (!inView){
@@ -58,7 +58,10 @@ animate={animation}
 </p>
 
 </motion.div>
-<button href="/events" className="addbutton">voir plus</button>
+<motion.div initial={{x:'-100vw'}}
+animate={{x:'-10vw',y:'-40px'}}
+transition={{delay:1.5,duration:1.5,type:'spring',stiffness:120}}><motion.a   href="/events" className="homebutton" whileHover={{scale:1.1,boxShadow:"0px 0px 8px rgb(255,255,255"}} style={{marginLeft:"150px",marginTop:"60px"}} >Voir plus</motion.a>
+   </motion.div> 
     </section>
   )
 }

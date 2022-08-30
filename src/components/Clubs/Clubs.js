@@ -9,7 +9,7 @@ import { useAnimation } from "framer-motion";
 import img1 from "../../images/1.jpg";
 import axios from "axios";
 import { SearchTwoTone } from "@mui/icons-material";
-
+import {motion} from 'framer-motion';
 
 
 const Clubs = () => {
@@ -526,8 +526,10 @@ const kebili =  [
    }, []);
    
   return (
+    <motion.div className="content" initial={{opacity:0}}
+    animate={{opacity:1}} transition={{duration:.4,stiffness:120}}>
     <div className="content-wrapper2">
-      <h3 className="tx">Les Catégories</h3>
+      <h3 className="tx">Les activités</h3>
 
       <form onSubmit={(e)=>{e.preventDefault();find()}} style={{marginLeft:'25%'}}>
         <div className="inner-form">
@@ -593,7 +595,7 @@ const kebili =  [
             <div className="row third">
               <div className="input-field">
                 <div className="result-count">
-                  <span>108 </span>résultats</div>
+                  <span>{clubs.length} </span>résultats</div>
                 <div className="group-btn">
                   <button className="btn-delete" id="delete">RESET</button>
                   <button  type="submit" className="btn-search" >Rechercher</button>
@@ -636,6 +638,7 @@ const kebili =  [
            </div>
       </section>
     </div>
+    </motion.div>
   );
 };
 

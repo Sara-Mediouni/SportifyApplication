@@ -180,6 +180,10 @@
   .latest h2{
     color:#85D236
   }
+  .latest{
+    overflow: scroll;
+    
+  }
   @media (max-width:750px){
   h1{
    

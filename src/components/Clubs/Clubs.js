@@ -529,7 +529,7 @@ const kebili =  [
     <motion.div className="content" initial={{opacity:0}}
     animate={{opacity:1}} transition={{duration:.4,stiffness:120}}>
     <div className="content-wrapper2">
-      <h3 className="tx">Les activités</h3>
+      <h3 className="tx"></h3>
 
       <form onSubmit={(e)=>{e.preventDefault();find()}} style={{marginLeft:'25%'}}>
         <div className="inner-form">

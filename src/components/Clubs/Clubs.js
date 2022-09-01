@@ -1,20 +1,12 @@
 import React from "react";
-
 import "./clubs.css";
-import { FaSearch } from "react-icons/fa";
-import {BiFilter} from "react-icons/bi"
-import { useInView } from "react-intersection-observer";
 import { useEffect ,useState} from "react";
-import { useAnimation } from "framer-motion";
-import img1 from "../../images/1.jpg";
 import axios from "axios";
-import { SearchTwoTone } from "@mui/icons-material";
 import {motion} from 'framer-motion';
 
 
 const Clubs = () => {
   const [clubs, setClubs] = React.useState([{clubs:""}]);
-  const [act, setact] = React.useState([{act:""}]);
   const[fix,setfix]=useState(false)
   const [queryregion, setqueryregion] = React.useState(null);
   const [querygouv, setquerygouv] = React.useState(null);
@@ -612,7 +604,7 @@ const kebili =  [
        
         
                    <div className="card-sl" >
-                  /* <div className="card-image">
+                  <div className="card-image">
                         
                     </div>*/
 

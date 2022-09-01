@@ -8,7 +8,7 @@ import {
   BrowserRouter ,
   Routes,
   Route,
-  Link
+  
 } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
 import Contacts from "./components/Contacts/Contacts";

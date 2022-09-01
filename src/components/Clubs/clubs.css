@@ -17,7 +17,7 @@
         border-top-right-radius: 20px;
     
     }
-    .description img{}
+    
     .clb img{
         position: relative;
         top:-90px;
@@ -334,9 +334,7 @@
     margin-bottom: 20px;
   }
   
-    form .inner-form .advance-search .row.second {
-   
-  }
+  
   
     form .inner-form .advance-search .row.third {
     margin-bottom: 0;
@@ -791,7 +789,6 @@ form .btn-search{
   .card-action:hover {
       color: #fff;
       background: #E26D5C;
-      -webkit-animation: pulse 1.5s infinite;
   }
   
   .card-heading {

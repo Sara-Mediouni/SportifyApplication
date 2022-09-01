@@ -100,9 +100,7 @@ font-size: 25px;
       display: flexbox;
     
   }
-  .icons p{
-     
-  }
+
 }
 
   @media screen and (max-width: 600px) {
@@ -113,9 +111,7 @@ font-size: 25px;
       padding-right:180px;
      
     }
-    .box-container{
-        
-    }
+  
     .responsive{
         
         max-width:100%;

@@ -21,7 +21,7 @@ const Footer = () => {
 
 <div className="box ">
     <h3>Besoin d'aide ?</h3>
-    <a href="#"><i><AiOutlineArrowRight/></i>Contacts</a>
+    <a href="/contacts"><i><AiOutlineArrowRight/></i>Contacts</a>
 </div>
 
 <div className="box">
@@ -31,9 +31,9 @@ const Footer = () => {
 
 <div className="box">
     <h3>Liens utiles</h3>
-    <a href="#"><i><AiOutlineArrowRight/></i>Clubs</a>
+    <a href="/clubs"><i><AiOutlineArrowRight/></i>Clubs</a>
     <a href="#"><i><AiOutlineArrowRight/></i>Salles</a>
-    <a href="#"><i><AiOutlineArrowRight/></i>Evènements</a>
+    <a href="/events"><i><AiOutlineArrowRight/></i>Evènements</a>
 </div>
 
 

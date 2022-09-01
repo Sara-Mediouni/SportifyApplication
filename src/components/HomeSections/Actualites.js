@@ -1,7 +1,5 @@
 import React from 'react'
 import './news.css';
-import img1 from '../../images/53c54.jpg';
-import img2 from '../../images/adel_sellimi_1657030641.jpg'
 import {motion} from 'framer-motion'
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
@@ -17,7 +15,7 @@ export default function Actualites() {
       setnews1(news1)
    
       const news2 = response.data[1];
-      setnews1(news2)
+      setnews2(news2)
      
   })};
   const{ref, inView}=useInView({
@@ -45,14 +43,14 @@ if (inView){
 animate={animation}  
 className='article'>
   
-<img src={"http://localhost:3000/uploadsnews/"+news1.Image} className="image col-md-5 col-xs-3 col-xs-offset-1"/>
+<img alt="" src={"http://localhost:3000/uploadsnews/"+news1.Image} className="image col-md-5 col-xs-3 col-xs-offset-1"/>
 <p className='title'><span>{news1.Titre}</span> {news1.Description}</p>
 
 </motion.div>
 <motion.div 
 animate={animation} 
  className='article2'>
-<img src={"http://localhost:3000/uploadsnews/"+news2.Image} className="image2"/>
+<img alt=""src={"http://localhost:3000/uploadsnews/"+news2.Image} className="image2"/>
 <p className='title2'><span>{news2.Titre}</span> 
 {news2.Description}
 </p>

@@ -1,12 +1,9 @@
 import React from "react";
 import {motion} from 'framer-motion';
 import "./clubs.css";
-import { FaSearch } from "react-icons/fa";
-import {BiFilter} from "react-icons/bi"
-import { useInView } from "react-intersection-observer";
+
 import { useEffect,useState } from "react";
-import { useAnimation } from "framer-motion";
-import img1 from "../../images/1.jpg";
+
 import { useParams } from 'react-router-dom'
 import axios from "axios";
 const Details = (props) => {
@@ -499,7 +496,7 @@ const kebili =  [
     
     axios.get("http://localhost:3000/api/club/find/"+act+"/"+querygouv+"/"+queryregion)
     .then(response => {
-      const clubs = response.data;
+    
       const act = response.data;
        setact(act)
     })}
@@ -608,7 +605,7 @@ const kebili =  [
                             src={img1} />
                     </div>*/}  <div className="card-image">
                         <img
-                            src={"http://localhost:3000/images/"+c.Logo} />
+                         alt=""   src={"http://localhost:3000/images/"+c.Logo} />
                     </div>
 
                  

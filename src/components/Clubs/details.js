@@ -583,7 +583,7 @@ const kebili =  [
             <div className="row third">
               <div className="input-field">
                 <div className="result-count">
-                  <span>108 </span>résultats</div>
+                  <span>1 </span>résultats</div>
                 <div className="group-btn">
                   <button type="button"onClick={()=>{}} className="btn-delete" id="delete">RESET</button>
                   <button type="submit"className="btn-search">Rechercher</button>

@@ -18,6 +18,8 @@ import Details from './components/Clubs/details'
 import Events from "./components/Events/Evènements";
 import Footer from "./components/Footer/footer";
 import Home from "./components/Home/Home";
+import Login from './components/Login/Login';
+import Signup from "./components/Login/Signup";
 
 function App() {
   return (
@@ -31,7 +33,8 @@ function App() {
     <Route path="/clubs" element={<Clubs/>} exact />
     <Route path="/club/:id" element={<Club/>} exact />
     <Route path="/details/:act" element={<Details/>} exact />
-    
+    <Route path="/login" element={<Login/>} exact />
+    <Route path="/signup" element={<Signup/>} exact />
     <Route path="/events" element={<Events/>} exact />
     
     </Routes>

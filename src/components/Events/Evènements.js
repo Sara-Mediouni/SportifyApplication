@@ -530,7 +530,7 @@ const kebili =  [
           <div className="container">
             
             <div className="col-sm-12">
-            <form onSubmit={(e)=>{e.preventDefault();find()}} style={{marginLeft:'25%'}}>
+            <form onSubmit={(e)=>{e.preventDefault();find()}} style={{marginLeft:'14%'}}>
         <div className="inner-form">
           <div className="basic-search">
             
@@ -587,7 +587,7 @@ const kebili =  [
             <div className="row third">
               <div className="input-field">
                 <div className="result-count">
-                  <span>10 </span>résultats</div>
+                  <span>{events.length} </span>résultats</div>
                 <div className="group-btn">
                   <button className="btn-delete" id="delete">RESET</button>
                   <button  type="submit" className="btn-search" >Rechercher</button>

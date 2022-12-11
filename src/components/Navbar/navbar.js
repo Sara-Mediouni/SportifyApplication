@@ -20,7 +20,7 @@ window.addEventListener("scroll",setfixed)
     return (
         
             <nav className= 'navbar  nav-2 navbar-expand-lg border-bottom border-secondary'>
-  <a className="navbar-brand" href="/"><i><GiTennisBall style={{color:'#85D236'}}/></i>Sportif</a>
+  <a className="navbar-brand" href="/"><i><GiTennisBall style={{color:'#85D236'}}/></i>Sportify</a>
  
   <button className="navbar-toggler navbar-dark pull-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
      <i><GiHamburgerMenu/></i> 
@@ -28,9 +28,8 @@ window.addEventListener("scroll",setfixed)
  
   <div className=" collapse navbar-collapse" id="navbarNavDropdown">
     <div className="navbar-nav">
-    <a className="nav-item nav-link" href="/">Acceuil</a>
+    <a className="nav-item nav-link" href="/">Accueil</a>
       <a className="nav-item nav-link" href="/clubs">Clubs</a>
-      <a className="nav-item nav-link" href="/details">Salles</a>
       <a className="nav-item nav-link" href="/events">Evènements</a>
       <a className="nav-item nav-link" href="/contacts">Contacts</a>
       <a className=" nav-icon" href="#"><i><BsFillPersonFill/></i></a>

@@ -605,8 +605,8 @@ const kebili =  [
         
                    <div className="card-sl" >
                   <div className="card-image">
-                        
-                    </div>*/
+                        /
+                    </div>
 
                  
                     <div className="card-heading">
